@@ -1,18 +1,15 @@
-#gridcontainer {
-    display: flexbox;
+#gridContainer {
+    display: flex;
+    width: 960px;
+    height: 960px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .square {
-    display: inline-block;
-    height: 100px;
     width: 100px;
+    height: 100px;
     background-color: red;
-    margin-right: 2px;
-    margin-left: 2px;
     z-index: 2;
-}
-
-.gridRow {
-    display: flexbox;
-    flex-direction: row;
 }
