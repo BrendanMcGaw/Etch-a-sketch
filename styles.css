@@ -1,15 +1,14 @@
 #gridContainer {
-    display: flex;
     width: 960px;
     height: 960px;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
 }
 
-.square {
-    width: 100px;
-    height: 100px;
+.rows {
+    display: flex;
+    background-color: blue;
+    border: 1px black solid;
+}
+
+.squares {
     background-color: red;
-    z-index: 2;
 }
