@@ -3,8 +3,9 @@ const gridContainer = document.getElementById("gridContainer");
 var rows = document.getElementsByClassName("rows");
 var squares = document.getElementsByClassName("squares");
 
-var gridSize = 16;
+var gridSize = 32;
 var rowHeight = 960 / gridSize;
+var rowWidth = 960 / gridSize;
 
 // Creates rows amounting to the size of the grid.
 for (r = 0; r < gridSize; r++) {

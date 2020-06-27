@@ -5,12 +5,14 @@
 
 .rows {
     display: flex;
-    height: 60px;
+    object-fit: contain;
+    height: 30px;
     background-color: blue;
 }
 
 .squares {
-    height: 60px;
-    width: 60px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
     background-color: red;
 }
