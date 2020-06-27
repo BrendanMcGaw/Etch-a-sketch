@@ -1,14 +1,16 @@
 #gridContainer {
-    width: 960px;
-    height: 960px;
+    max-width: 960px;
+    max-height: 960px;
 }
 
 .rows {
     display: flex;
+    height: 60px;
     background-color: blue;
-    border: 1px black solid;
 }
 
 .squares {
+    height: 60px;
+    width: 60px;
     background-color: red;
 }

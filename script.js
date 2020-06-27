@@ -6,15 +6,11 @@ var squares = document.getElementsByClassName("squares");
 var gridSize = 16;
 var rowHeight = 960 / gridSize;
 
-// height must be 960px / gridSize
-
 // Creates rows amounting to the size of the grid.
 for (r = 0; r < gridSize; r++) {
     var newRow = document.createElement('div');
     gridContainer.appendChild(newRow).className = "rows";
 }
-
-
 
 // Creates 16 iterations of new square divs to create my grid.
 for (i = 0; i < gridSize; i++){
@@ -24,7 +20,6 @@ for (i = 0; i < gridSize; i++){
         rows[i].appendChild(newSquare);
     }
 }
-
 
 // looks for the index number of the square the you have moused over and applies the style
 // to that particular square
